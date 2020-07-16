@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This fillViewPort is used so that it doesn't take less space and
+  take the original space that was before applying scroll view -->
+<!--<ScrollView -->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent">-->
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_margin="30dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@color/colorAccent"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:text="Hello TextView"-->
+    <!--            android:textSize="32sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:text="Hello TextView"-->
+    <!--            android:textSize="32sp" />-->
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:layout_margin="20dp"-->
+    <!--            android:padding="40dp"-->
+    <!--            android:background="@color/colorAccent"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Hello TextView"-->
+    <!--            android:textSize="32sp" />-->
+
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:text="Hello TextView"-->
+    <!--            android:textSize="32sp" />-->
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@color/colorAccent"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:text="Hello TextView"-->
+    <!--            android:textSize="32sp" />-->
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:text="Hello TextView"-->
+    <!--            android:textSize="32sp" />-->
+
+    <!--    </LinearLayout>-->
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/myphoto"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:src="@drawable/myphoto2" />-->
+
+<!--    <TextView-->
+<!--        android:text="Frame Layout"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="32sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--    <ImageView-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:layout_width="220dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_gravity="center_horizontal|bottom"-->
+<!--        android:src="@drawable/myphoto2" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/testView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Hello World!"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/testView2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/testView1"-->
+<!--        android:layout_toRightOf="@+id/testView1"-->
+<!--        android:text="Relative Layout"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/testView1"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/testView1" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/testView3"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/testView1"-->
+<!--        android:layout_toLeftOf="@+id/testView1"-->
+<!--        android:text="Relative Layout"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/testView1"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/testView1" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/testView4"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:text="Relative Layout"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/testView1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="81dp"
+        android:layout_height="43dp"
+        android:onClick="showtoast"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--</ScrollView>-->
