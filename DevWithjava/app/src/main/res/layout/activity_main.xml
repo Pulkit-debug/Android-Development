@@ -73,4 +73,26 @@
         android:text="TextView"
         app:layout_constraintStart_toStartOf="@+id/btnAdd"
         app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
+
+    <EditText
+        android:id="@+id/weburl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginBottom="188dp"
+        android:ems="10"
+        android:hint="Enter Web Address"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnBrowse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="@+id/weburl"
+        app:layout_constraintTop_toBottomOf="@+id/weburl"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
 </androidx.constraintlayout.widget.ConstraintLayout>
